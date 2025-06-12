@@ -72,7 +72,7 @@ Optional arguments:
 
 Upload an image through the UI, visualize Heatmap.
 
-![Alt Text](assets/page.jpg)
+![Alt Text](assets/page.png)
 
 ---
 
@@ -113,8 +113,10 @@ crackmap/
 ---
 
 ## 📷 Sample Results
-![Alt Text](assets/input.jpg)
-![Alt Text](assets/results.jpg)
+| Input Image | results |
+|-------------|----------------|
+| ![](assets/input.jpeg) | ![](assets/results.jpeg) |
+
 
 ---
 
