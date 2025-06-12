@@ -72,6 +72,8 @@ Optional arguments:
 
 Upload an image through the UI, visualize Heatmap.
 
+![Alt Text](assets/page.jpg)
+
 ---
 
 ## 🧠 Model Details
@@ -80,7 +82,7 @@ Upload an image through the UI, visualize Heatmap.
 * Framework: PyTorch
 * Input size: 224x224 
 
-To train your own model, refer to `train.ipynb`.
+To train your own model, refer to `notebook.ipynb`.
 
 ---
 
@@ -88,14 +90,15 @@ To train your own model, refer to `train.ipynb`.
 
 ```
 crackmap/
-├── app.py                               # main app
+├── app.py                               # streamlit page
+├── main.py                              # main app
 ├── models/                              # Saved PyTorch models
 |   └── concrete_crack_model_new.pth             
-├── app.py
 └── pages/
 |   └── About.py
 ├── requirements.txt
 ├── assets/
+├── notebook.ipynb
 └── README.md
 
 ```
@@ -110,8 +113,8 @@ crackmap/
 ---
 
 ## 📷 Sample Results
-
-![Alt Text](assets/result.jpg)
+![Alt Text](assets/input.jpg)
+![Alt Text](assets/results.jpg)
 
 ---
 
@@ -141,8 +144,6 @@ If you're interested in collaborating or just want to say hi, feel free to conne
 
 ## 🌐 Credits
 
-Built by [ihsan31415](https://github.com/ihsan31415), pls contrib if u want <3
+Built by [ihsan31415](https://github.com/ihsan31415), pls contrib if u want <3.
 Inspired by real-world needs in infrastructure and material health monitoring.
-
-```
 
